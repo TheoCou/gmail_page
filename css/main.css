@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 li {
-    padding: 2rem;
+    padding: 0.9rem;
 }
 
 li:hover {
@@ -20,17 +21,16 @@ li:hover {
 
 header {
     background-color: #fafafa;
+    box-shadow:0 0 10px #00000031;
     width: 100%;
+    height: 4rem;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-header nav h1 {
-    color: grey;
-    font-family: 'Open Sans', sans-serif;
-}
 
 header nav ul {
     font-family: 'Open Sans', sans-serif;
@@ -49,11 +49,13 @@ section h2 {
 }
 
 header img {
-    height: 6rem;
+    height: 4rem;
+
 }
 
 header a {
-    color: black;
+    font-size: 1.2rem;
+    
 }
 
 a {
@@ -66,9 +68,9 @@ main {
     height: 100vh;
 }
 
-/* button */
+/* button first page */
 
-body main a { 
+body main a {
     background-color: #dd5347;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -81,17 +83,18 @@ body main a {
 div h3 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.1rem;
     font-weight: 100;
-    margin: 27% 10% 5% 10%;
-    padding: 0 24% 0 24%;
+    margin: 20% 10% 2% 10%;
+    padding: 0 27% 0 27%;
 }
 
 div h4 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    font-size: 1.2rem;
     font-weight: 100;
-    padding: 0 34% 0 34%;
+    padding: 0 37% 0 37%;
 }
 
 /* form */
@@ -108,6 +111,25 @@ input {
     padding: 0rem 0 0 0.5rem;
 }
 
+form input {
+    background-color: #f7f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding: 12px;
+    width: 100%;
+    border: 1px;
+    border-bottom: 1px solid;
+}
+
 label {
-    
+    font-family: 'Open Sans', sans-serif;
+}
+
+fieldset {
+    width: 45%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0 1% 0 1%;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.103);
 }
