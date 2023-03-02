@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+li {
+    padding: 2rem;
+}
+
+li:hover {
+    background-color: #dd5347;
+}
+
+header {
+    background-color: #fafafa;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+section h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-left: 4rem;
+    padding: 15% 60% 4% 4%;
+}
+
+header img {
+    height: 6rem;
+}
+
+header a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background: url(../asset/home-hero.jpg) no-repeat center center / cover;
+    width: 100vh 100%;
+    height: 100vh;
+}
+
+/* button */
+
+body main a { 
+    background-color: #dd5347;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 7.5%;
+    padding: 2rem;
+}
+
+/* text top form */
+
+div h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 27% 10% 5% 10%;
+    padding: 0 24% 0 24%;
+}
+
+div h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    padding: 0 34% 0 34%;
+}
+
+/* form */
+
+legend {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.6rem;
+    padding: 0.5rem;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem;
+    padding: 0rem 0 0 0.5rem;
+}
+
+label {
+    
+}
