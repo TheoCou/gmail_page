@@ -21,7 +21,7 @@ li:hover {
 
 header {
     background-color: #fafafa;
-    box-shadow:0 0 10px #00000031;
+    box-shadow: 0 0 10px #00000031;
     width: 100%;
     height: 4rem;
     position: fixed;
@@ -55,7 +55,7 @@ header img {
 
 header a {
     font-size: 1.2rem;
-    
+
 }
 
 a {
@@ -98,6 +98,10 @@ div h4 {
 }
 
 /* form */
+
+form {
+    padding-right: 1rem;
+}
 
 legend {
     font-family: 'Open Sans', sans-serif;
