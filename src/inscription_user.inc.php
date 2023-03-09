@@ -1,10 +1,10 @@
 <?php
  try {
-    $_bdd=new PDO('mysql:host=localhost;dbname=abonnement;charset=utf8', 'root', '');
+    $_bdd=new PDO('mysql:host=localhost;dbname=gmail;charset=utf8', 'root', '');
          }catch (Exception $e) {
                       die('Erreur : '.$e->getMessage());
                   }
-//
+
 
 //treatment
 if (isset($_POST['login']) || isset($_POST['password'])) {
