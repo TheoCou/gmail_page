@@ -1,31 +1,30 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
+session_start();
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./asset/mail.png">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Gmail</title>
-</head>
+<?php
+include_once("./src/head.inc.php");
+?>
+
+<header>
+
+    <a href="#"><img src="./asset/imagegmail.png" alt="gmail" loading="lazy"></a>
+
+    <nav>
+        <ul>
+
+            <li><a href="#">POUR LES PROS</a></li>
+            <li><a href="#">CONNEXION</a></li>
+            <li><a href="#">CRÉER UN COMPTE</a></li>
+
+        </ul>
+    </nav>
+
+</header>
 
 <body>
-    <header>
-
-        <a href="#"><img src="./asset/imagegmail.png" alt="gmail" loading="lazy"></a>
-
-        <nav>
-            <ul>
-
-                <li><a href="#">POUR LES PROS</a></li>
-                <li><a href="#">CONNEXION</a></li>
-                <li><a href="#">CRÉER UN COMPTE</a></li>
-            </ul>
-        </nav>
-
-    </header>
     <main>
+
         <section>
 
             <h2>Retrouvez la fluidité et la simplicité de Gmail sur tous vos appareil</h2>
@@ -35,6 +34,11 @@
         </section>
 
 
+        <div class="button_scroll">
+
+            <a href="#connection"><img src="./asset/arrow.png" alt="scroll button"></a>
+
+        </div>
 
         <!-- FORMULAIRE -->
 
@@ -67,6 +71,10 @@
                 </form>
             </fieldset>
         </div>
+
+        <?php
+        include_once "./src/inscription_user.inc.php";
+        ?>
     </main>
 </body>
 
