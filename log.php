@@ -10,7 +10,6 @@ include_once("./src/head2.inc.php");
         <ul>
 
             <li><a href="#">POUR LES PROS</a></li>
-            <li><a href="#">CONNEXION</a></li>
             <li><a href="#">CRÉER UN COMPTE</a></li>
 
         </ul>
