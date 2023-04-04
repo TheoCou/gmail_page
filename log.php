@@ -57,7 +57,7 @@ include_once("./src/head.inc.php");
                     <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" aria-required="true"> <br>
 
                     <label for="email">Mail*</label> <br>
-                    <input type="text" id="email" name="email" placeholder="Votre mail" aria-required="true"> <br>
+                    <input type="login" id="login" name="login" placeholder="Votre mail" aria-required="true"> <br>
 
                     <label for="password">Choisir votre mot de passe*</label> <br>
                     <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true"> <br>

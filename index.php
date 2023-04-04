@@ -51,8 +51,7 @@ include_once("./src/head.inc.php");
 
             <fieldset id="connection">
                 <legend>Créer un compte</legend>
-                <form>
-
+                <form method="post">
 
                     <label for="nom">Nom*</label> <br>
                     <input type="text" id="nom" name="nom" placeholder="Votre nom" aria-required="true" autofocus> <br>
@@ -61,7 +60,7 @@ include_once("./src/head.inc.php");
                     <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" aria-required="true"> <br>
 
                     <label for="email">Mail*</label> <br>
-                    <input type="text" id="email" name="email" placeholder="Votre mail" aria-required="true"> <br>
+                    <input type="text" id="email" name="login" placeholder="Votre mail" aria-required="true"> <br>
 
                     <label for="password">Choisir votre mot de passe*</label> <br>
                     <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true"> <br>
