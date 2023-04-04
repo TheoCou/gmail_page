@@ -2,7 +2,7 @@
 
 class User
 {
-    public $_css = "./css/main.css";
+    public $_css = "./css/style.css";
     static $_lang = ["fr", "en"];
     public $_title = "Gmail";
 }

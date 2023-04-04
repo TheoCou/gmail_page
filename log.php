@@ -1,5 +1,5 @@
 <?php
-include_once("./src/head.inc.php");
+include_once("./src/head2.inc.php");
 ?>
 
 <header>
@@ -20,22 +20,6 @@ include_once("./src/head.inc.php");
 
 <body>
     <main>
-
-        <section>
-
-            <h2>Retrouvez la fluidité et la simplicité de Gmail sur tous vos appareil</h2>
-
-            <a href="#">CRÉER UN COMPTE</a>
-
-        </section>
-
-
-        <div class="button_scroll">
-
-            <a href="#connection"><img src="./asset/arrow.png" alt="scroll button"></a>
-
-        </div>
-
         <!-- FORMULAIRE -->
 
         <div class="form">
@@ -48,7 +32,6 @@ include_once("./src/head.inc.php");
             <fieldset id="connection">
                 <legend>Créer un compte</legend>
                 <form>
-
 
                     <label for="nom">Nom*</label> <br>
                     <input type="text" id="nom" name="nom" placeholder="Votre nom" aria-required="true" autofocus> <br>

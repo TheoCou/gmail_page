@@ -1,0 +1,40 @@
+/* form */
+
+form {
+    padding-right: 1rem;
+}
+
+legend {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.6rem;
+    padding: 0.5rem;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem;
+    padding: 0 0 0 0.5rem;
+}
+
+form input {
+    background-color: #f7f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding: 12px;
+    width: 100%;
+    border: 1px;
+    border-bottom: 1px solid;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+fieldset {
+    width: 45%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0 1% 0 1%;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.103);
+}
