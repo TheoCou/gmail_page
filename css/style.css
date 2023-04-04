@@ -43,10 +43,13 @@ body {
 
 li {
     padding: 1.65rem;
+    transition: 0.5s;
+
 }
 
 li:hover {
     background-color: #dd5347;
+    transition: 0.5s;
 }
 
 /* form */
@@ -88,4 +91,16 @@ fieldset {
     padding: 0 1% 0 1%;
     border-radius: 8px;
     border-color: rgba(0, 0, 0, 0.103);
+}
+
+#submit{
+    color:white; 
+    background-color: #174ea6;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 25%;
+    /* border-radius: 5px; */
 }

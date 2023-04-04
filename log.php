@@ -29,7 +29,7 @@ include_once("./src/head2.inc.php");
                 ceux que vous souhaitez lire en priorité.</h4>
 
             <fieldset id="connection">
-                <legend>Créer un compte</legend>
+                <legend>Connectez-vous</legend>
                 <form>
 
                     <label for="nom">Nom*</label> <br>
@@ -44,7 +44,7 @@ include_once("./src/head2.inc.php");
                     <label for="password">Choisir votre mot de passe*</label> <br>
                     <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true"> <br>
 
-                    <input type="submit" id="submit" value="Valider votre compte" aria-label="Valider">
+                    <input type="submit" id="submit" value="Se connecter" aria-label="Valider">
 
                 </form>
             </fieldset>
