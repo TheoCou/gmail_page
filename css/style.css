@@ -20,12 +20,33 @@ header {
     align-items: center;
 }
 
+header nav ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+header li a {
+    font-size: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+}
+
+header img {
+    height: 6rem;
+}
+
 body {
     font-size: 1.6rem;
 }
 
 li {
     padding: 1.65rem;
+}
+
+li:hover {
+    background-color: #dd5347;
 }
 
 /* form */
