@@ -21,7 +21,7 @@ try { // connect to MySQL
             }
             //compare login and password to the database
             elseif ($login != $data['login'] && $mdp != $data['password']) {
-                echo "<p class=\"warning\">Erreur login ou mot de passe?</p>";
+                echo"<p class=\"warning\">Erreur login ou mot de passe?</p>";
             } else {
                 //valid connection
                 $_SESSION['nom'] = $login;

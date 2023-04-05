@@ -10,7 +10,7 @@ include_once("./src/head2.inc.php");
         <ul>
 
             <li><a href="#">POUR LES PROS</a></li>
-            <li><a href="#">CRÉER UN COMPTE</a></li>
+            <li><a href="./index.php">CRÉER UN COMPTE</a></li>
 
         </ul>
     </nav>
@@ -30,7 +30,7 @@ include_once("./src/head2.inc.php");
 
             <fieldset id="connection">
                 <legend>Connectez-vous</legend>
-                <form>
+                <form method="post">
 
                     <label for="nom">Nom*</label> <br>
                     <input type="text" id="nom" name="nom" placeholder="Votre nom" aria-required="true" autofocus> <br>
@@ -41,7 +41,7 @@ include_once("./src/head2.inc.php");
                     <label for="email">Mail*</label> <br>
                     <input type="login" id="login" name="login" placeholder="Votre mail" aria-required="true"> <br>
 
-                    <label for="password">Choisir votre mot de passe*</label> <br>
+                    <label for="password">Entrez votre mot de passe*</label> <br>
                     <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true"> <br>
 
                     <input type="submit" id="submit" value="Se connecter" aria-label="Valider">

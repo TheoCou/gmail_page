@@ -9,6 +9,11 @@ html {
     font-size: 62.5%;
 }
 
+.warning {
+    text-align: center;
+    background-color: red
+}
+
 header {
     background-color: #fafafa;
     box-shadow: 0 0 10px #00000031;
