@@ -20,8 +20,8 @@ if (isset($_POST['login']) || isset($_POST['password'])) {
         }else {
 
         
-        $req = $_bdd->prepare('INSERT INTO inscription (login, password)VALUES(?,?)');
-        $req->execute(array($_POST['login'], password_hash($_POST['password'], PASSWORD_DEFAULT)));
+        $req = $_bdd->prepare('INSERT INTO inscription (login, password, surname,firtsname)VALUES(?,?,?,?)');
+        $req->execute(array($_POST['login'], password_hash($_POST['password'], PASSWORD_DEFAULT), $_POST['nom'], $_POST['prenom']));
         
         echo "<p class=\"success\">Merci votre contenu est ajouté :
                 <a href=\"log.php\" title=\"pub\">Connectez vous</a>

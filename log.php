@@ -32,12 +32,6 @@ include_once("./src/head2.inc.php");
                 <legend>Connectez-vous</legend>
                 <form method="post">
 
-                    <label for="nom">Nom*</label> <br>
-                    <input type="text" id="nom" name="nom" placeholder="Votre nom" aria-required="true" autofocus> <br>
-
-                    <label for="prenom">Prénom*</label> <br>
-                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" aria-required="true"> <br>
-
                     <label for="email">Mail*</label> <br>
                     <input type="login" id="login" name="login" placeholder="Votre mail" aria-required="true"> <br>
 
