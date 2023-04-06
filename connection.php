@@ -1,5 +1,5 @@
 <?php
-include_once("./src/head.inc.php");
+include_once("./src/head2.inc.php");
 ?>
 
 <header>
@@ -10,14 +10,13 @@ include_once("./src/head.inc.php");
         <ul>
 
             <li><a href="#">POUR LES PROS</a></li>
-            <li><a href="#">CRÉER UN COMPTE</a></li>
+            <li><a href="./index.html">CRÉER UN COMPTE</a></li>
 
         </ul>
     </nav>
-    <section>Bienvenue dans votre espace</section>
 </header>
 <main>
 
-<section>Bienvenue dans votre espace</section>
+<h1>Bienvenue dans votre espace</h1>
 
 </main>
