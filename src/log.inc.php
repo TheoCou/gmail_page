@@ -1,5 +1,4 @@
 <?php
-
         //test form
         if (isset($_POST["login"]) && isset($_POST["password"])) {
              // connect to MySQL
