@@ -10,10 +10,14 @@ include_once("./src/head.inc.php");
         <ul>
 
             <li><a href="#">POUR LES PROS</a></li>
-            <li><a href="#">CONNEXION</a></li>
             <li><a href="#">CRÉER UN COMPTE</a></li>
 
         </ul>
     </nav>
     <section>Bienvenue dans votre espace</section>
 </header>
+<main>
+
+<section>Bienvenue dans votre espace</section>
+
+</main>
