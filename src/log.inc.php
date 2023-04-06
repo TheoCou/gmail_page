@@ -26,16 +26,8 @@
                     header("Location: connection.php");
                     exit;
                 }
-            }else {
+            }
+            else{
                 echo "<p class=\"warning\">Erreur login ou mot de passe?</p>";
             }
-            /*elseif ($login != $data["login"] && $mdp != $data["password"]) {
-                echo"<p class=\"warning\">Erreur login ou mot de passe?</p>";
-            } else {
-                //valid connection
-                $_SESSION['nom'] = $login;
-                echo "<p class=\"success\">Votre login est " . $_SESSION['nom'] . "
-                            votre mot de passe est  " . md5($mdp);
-                header("Location: connection.php");
-                exit;*/
-            }
+}
